@@ -59,7 +59,7 @@
 	<plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-checkstyle-plugin</artifactId>
-	  	<version>2.1.7</version>
+	  	<version>3.0.0</version>
 	  	<configuration>
 	  		<configLocation>checkstyle.xml</configLocation>
           		<consoleOutput>true</consoleOutput>
@@ -67,7 +67,7 @@
 	  	</configuration>
 		<executions>
 	     		<execution>
-	       			<phase>validate</phase>
+	       			<phase>package</phase>
 	       			<goals>
 					<goal>checkstyle</goal>
 	       			</goals>
