@@ -1,7 +1,7 @@
  dist: trusty
   group: edge
   language: java
-  sudo: required
+  sudo: false
   jdk: openjdk8
   cache:
   directories:
